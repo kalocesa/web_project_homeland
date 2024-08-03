@@ -1,93 +1,75 @@
 .intro {
-    width: 830px;
-    margin: 92px 302px 92px 148px;
+    max-width: 984px;
+    width: 100%;
+    margin: 92px auto 118px;
 }
 
 .intro__title {
-    width: 830px;
-    margin: 0 0 39.98px;
+    max-width: 830px;
+    width: 100%;
     font-weight: 900;
     font-size: 3.3rem;
     line-height: 3.6rem;
+    margin: 0 0 40px;
 }
 
 .intro__text-cite {
-    width: 738px;
-    margin: 0 0 10px 0;
+    max-width: 738px;
+    width: 100%;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 2.1rem;
+    margin: 0 0 10px;
 }
 
 .intro__text-author {
-    width: 732px;
+    max-width: 732px;
+    width: 100%;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 2.1rem;
     text-align: right;
-    margin: 0 0 31.99px 0;
+    margin: 0 0 32px;
 }
 
 .intro__text {
-    width: 722px;
-    margin: 0;
+    max-width: 722px;
+    width: 100%;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 26.08px;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin: 0;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1024px){ 
     .intro {
-        width: 720px;
-        margin: 90px auto 88px;
+        margin-top: 90px;
+        margin-bottom: 64px;
+        padding: 0 24px;
+        box-sizing: border-box;
     }
 
-    .intro__title {
-        width: 707px;
-        margin: 0 0 50px;
+    .intro__title {                
         font-size: 2.8rem;
-        line-height: 3.06rem;
+        line-height: 3rem;
+        margin: 0 0 50px;
     }
-
-    .intro__text-cite {
-        width: 100%;
-        margin: 0 0 26px 0;
-        font-size: 1.5rem;
-        line-height: 2.1rem;
-    }
-
-    .intro__text-author {
-        width: 100%;
-        font-size: 1.5rem;
-        line-height: 2.1rem;
-        margin: 0 0 32px 0;
-    }
-
-    .intro__text {
-        width: 100%;
-        font-size: 1rem;
-        line-height: 1.6rem;
-    }
-
 }
 
 @media screen and (max-width:544px) {
-    .intro {
-        width: 288px;
-        margin: 64px auto;
+    .intro {        
+        margin-top: 64px;
+        margin-bottom: 38px;
+        padding: 0 16px;
     }
 
-    .intro__title {
-        width: 100%;
-        margin: 0 0 40px;
+    .intro__title {               
         font-size: 2rem;
         line-height: 2.1rem;
+        margin: 0 0 40px;
     }
 
     .intro__text-cite {
-        margin: 0 0 10px 0;
-        font-size: 1.5rem;
         line-height: 1.8rem;
     }
 }
-    

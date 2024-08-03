@@ -8,4 +8,4 @@ La página web de TripleTen muestra las ciudades natales de algunos empleados de
 - GitHub Pages
 - Figma
 
-https://github.com/kalocesa/web_project_homeland/settings/pages 
+https://kalocesa.github.io/web_project_homeland/
