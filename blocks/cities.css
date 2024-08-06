@@ -1,0 +1,21 @@
+.cities {
+    max-width: 1184px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-row: repeat(2, 50%);
+    gap: 16px;
+}
+
+.cities__image {
+    max-width: 284px;
+    width: 100%;
+}
+
+@media screen and (max-width:1024px){
+
+}
+
+@media screen and (max-width:544px){
+    
+}

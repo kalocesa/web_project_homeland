@@ -1,0 +1,70 @@
+.places {
+    max-width: 987px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.place {
+    max-width: 984px;
+    width: 100%;
+}
+
+.place__title {
+    max-width: 460px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 4.7rem;
+}
+
+.place__image {
+    max-width: 460px;
+    width: 100%;
+    box-shadow: 10px 10px 25px 0 rgba(0,0,0,0.50);
+}
+
+.place__image:hover{
+    color: #000000;
+    opacity: 50%;
+}
+
+.place__image-frame {
+    max-width: 249px;
+    width: 100%;
+}
+
+.place__image-frame:hover{
+    color: #000000;
+    opacity: 25%;
+}
+
+.place__website {
+    max-width: 456px;
+    width: 100%;
+}
+
+.place__url-heading {
+    max-width: 85px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+    /*falta letter*/
+    color: #AAAAAA;
+}
+
+.place__artist {
+    max-width: 329px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+}
+
+.place__paragraph {
+    max-width: 484px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
