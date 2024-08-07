@@ -35,14 +35,20 @@
 }
 
 .place__image-frame {
+    text-align: center;
     max-width: 249px;
     width: 100%;
     grid-row-start: 3;
     grid-row-end: 3;
+    color: #ffffff;
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+    box-shadow: 5px 5px 10px 0px rgba(O,O,O,0.40);
+    border-radius: 4px;
+    text-decoration: none;
 }
 
 .place__image-frame:hover{
-    color: #000000;
+    color: #ffffff;
     opacity: 25%;
 }
 
