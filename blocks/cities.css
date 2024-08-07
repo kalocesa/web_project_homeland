@@ -1,10 +1,12 @@
 .cities {
+    margin: auto;
+    margin-bottom: 92px;
     max-width: 1184px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-row: repeat(2, 50%);
-    gap: 16px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: repeat(2, 50%);
+    gap: 1rem;
 }
 
 .cities__image {
