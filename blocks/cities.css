@@ -1,13 +1,11 @@
 .cities {
-    margin: auto;
-    margin-bottom: 92px;
     max-width: 1184px;
     width: 100%;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(4, 284px);
-    grid-template-rows: repeat(2, 213px);
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 1rem;
-    justify-content: center;
+    margin-bottom: 92px;
 }
 
 .cities__image {
@@ -16,18 +14,13 @@
 
 @media screen and (max-width:1024px){
     .cities {
-        margin-bottom: 88px;
-        grid-template-columns: repeat(2, 352px);
-        grid-template-rows: repeat(4, 264px);
+    margin-bottom: 88px;
    
     }
 }
 
 @media screen and (max-width:544px){
     .cities {
-        margin-bottom: 62px;
-        grid-template-columns: 288px;
-        grid-template-rows: 216px;
-        gap: 1.3rem;
+    margin-bottom: 62px;
     }
 }
